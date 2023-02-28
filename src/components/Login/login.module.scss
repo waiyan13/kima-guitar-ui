@@ -1,0 +1,16 @@
+.form-field {
+  margin-bottom: 1em;
+}
+
+.form-login {
+  & :global .MuiPaper-root {
+    padding: 1em;
+  }
+}
+
+.form-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
